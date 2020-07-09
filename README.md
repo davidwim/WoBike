@@ -36,6 +36,7 @@ Public transport and multimodal routing apps could benefit from showing nearby b
 - [Ufo (Europe)](Ufo.md)
 - [Zero (Germany)](Zero.md)
 - [Scoota (Austria)](Scoota.md)
+- [Flamingo (New Zealand)](Flamingo.md)
 
 ## Bikes/E-Scooters
 - [LimeBike](Lime.md)
