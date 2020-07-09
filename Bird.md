@@ -59,7 +59,21 @@ Set the following headers:
  * `App-Version`: `4.41.0`
  * `Location`: `{"latitude":37.77249,"longitude":-122.40910,"altitude":500,"accuracy":100,"speed":-1,"heading":-1}` – Yes this is JSON in a header ;) – You should use the same data like from the GET request params.
 
- The Result looks like this: `{"birds":[{"id":"1486a00c-fd73-4370-9250-782f5c60ee2d","code":"6JLE","location":{"latitude":37.77216,"longitude":-122.409485},"battery_level":89}, ... ]}`
+ The Result looks like this: `{
+            "id": "092bc7b9-c727-4343-a241-57b15abea645",
+            "location": {
+                "latitude": 37.77054666666667,
+                "longitude": -122.39003833333332
+            },
+            "code": "YG6••",
+            "model": "b2",
+            "vehicle_class": "scooter",
+            "captive": false,
+            "partner_id": "fda7f125-ce2d-49e2-8f00-7f4eabdd2a88",
+            "battery_level": 73,
+            "estimated_range": 16965,
+            "area_key": "17A352FB06D2F4720827DBEE7E43B97F"
+        }`
 
 ## Request Areas
 
