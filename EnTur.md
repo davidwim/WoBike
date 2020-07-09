@@ -15,6 +15,12 @@ Example get request:
 |range|Radius in meters (optional), 200 default|
 |max| Maximum amount of scooters (optional), 20 default| 
 
+### Headers:
+
+| Headers        | Value                    | Mandatory |
+| ---------------| ------------------------ | :-------: |
+| ET-Client-Name | anything                 | X         |
+
 ## Example response 
 ```json
 [
