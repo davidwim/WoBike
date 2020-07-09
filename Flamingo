@@ -1,0 +1,38 @@
+# Flamingo (New Zealand)
+[Flamingo](https://www.flamingoscooters.co.nz/) is a E-Scooter sharing service that operates in New Zealand.
+
+## API
+
+Send a GET request to this URL: `https://api.flamingoscooters.com/gbfs/${city}/free_bike_status.json`
+
+## Filtering
+
+The method to view multiple city's at once using the API is unknown. So you need to replace `${city}` with either `auckland`, `wellington` or `christchurch`.
+
+## Response
+
+The responce should come back with something like this:
+
+```{
+    "success": true,
+    "data": {
+        "bikes": [
+            {
+                "bike_id": "1092",
+                "lat": -41.297284,
+                "lon": 174.773597,
+                "current_range_meters": 33120
+            },
+            {
+                "bike_id": "1091",
+                "lat": -41.299192,
+                "lon": 174.779298,
+                "current_range_meters": 22496
+            },
+            {
+                "bike_id": "1112",
+                "lat": -41.293523,
+                "lon": 174.780874,
+                "current_range_meters": 34920
+            },
+            ```
