@@ -5,7 +5,7 @@ Examples of supported companies in the Oslo area are Zvipp, Tier and Voi. Howeve
 ## Requesting Data
 ### HTTP GET: 
 Example get request:
-`GET https://api.entur.io/mobility/v1/scooters?lat=59.909&lon=10.746&range=200&max=20
+`GET` `https://api.entur.io/mobility/v1/scooters?lat=59.909&lon=10.746&range=200&max=20
 `
 ### Parameters: 
 |Parameter  |Description | 
